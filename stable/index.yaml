@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-15T14:58:13.341925229Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.5.x
+    description: A Helm chart for Kubernetes
+    digest: ccce6a6ae1002cd5f945a3ff3638e1b9bc44347354a7acdedef81c9b5127f8d7
+    name: demo
+    type: application
+    urls:
+    - demo-1.0.0.tgz
+    version: 1.0.0
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-15T14:58:13.342213639Z"
+    description: A Helm chart for Kubernetes
+    digest: 8b97eaa4b5ae29061b2057be402e829feaabe5e0bac314a69db216f37d154f8f
+    maintainers:
+    - name: PacktPublishing
+    name: nginx
+    type: application
+    urls:
+    - nginx-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-05-15T14:58:13.339429117Z"
